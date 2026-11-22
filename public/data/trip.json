@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "1.0",
+  "id": "sample-trip",
+  "trip": {
+    "name": "Viaje de ejemplo (importa tu itinerario)",
+    "startDate": "2027-01-01",
+    "endDate": "2027-01-01",
+    "homeTimezone": "America/Santo_Domingo",
+    "travelers": { "adults": 1, "minors": [] },
+    "notes": "Viaje de muestra sin datos personales. Menú → Importar para cargar tu itinerario."
+  },
+  "worlds": [
+    {
+      "id": "w-sample", "order": 1, "name": "Mundo de ejemplo", "subtitle": "Importa tu JSON", "theme": "tropical",
+      "days": [
+        { "date": "2027-01-01", "title": "Ejemplo", "activities": [
+          { "id": "sample-1", "name": "Menú → Importar → elige tu archivo JSON", "type": "activity", "priority": "required", "plannedStart": null, "plannedEnd": null, "timezone": "America/Santo_Domingo", "timeStatus": "pending", "location": null, "bookingStatus": "not_applicable" }
+        ] }
+      ]
+    }
+  ],
+  "budget": { "currency": "USD", "totalBudget": null, "exchangeRate": null, "references": [], "extraItems": [], "payments": [] },
+  "checklist": []
+}
